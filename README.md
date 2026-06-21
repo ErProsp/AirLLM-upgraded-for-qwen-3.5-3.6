@@ -41,6 +41,6 @@ generation_output = model.generate(
 
 print(tokenizer.decode(generation_output.sequences[0], skip_special_tokens=True))
 
-" <- end fo the code
+" <- end of the code
 
 Leave a comment if you liked this repository. I'll apprecciate it :)
