@@ -1,4 +1,4 @@
-How to use it>
+How to use it:
 
 1. click code and then download as .zip
 2. estract it in your site-packages folder Example for Windows: "C:\Users\[username]\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages"
@@ -6,7 +6,7 @@ How to use it>
 4. in your code you can use it almost like before.
 Example of usage:
 
-Python "
+Python: "
 
 from transformers import AutoTokenizer
 from airllm import AutoModel
@@ -41,6 +41,6 @@ generation_output = model.generate(
 
 print(tokenizer.decode(generation_output.sequences[0], skip_special_tokens=True))
 
-"
+" <- end fo the code
 
 Leave a comment if you liked this repository. I'll apprecciate it :)
