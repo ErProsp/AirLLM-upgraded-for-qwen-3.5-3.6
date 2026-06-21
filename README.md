@@ -1,12 +1,12 @@
 How to use it>
 
-1. download the folder airllm
-2. paste it in your site-packages folder Example for Windows: "C:\Users\[username]\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages"
+1. click code and then download as .zip
+2. estract it in your site-packages folder Example for Windows: "C:\Users\[username]\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages"
 3. if you had arleady installed airllm just delete the old folder or replace it with the new one
 4. in your code you can use it almost like before.
 Example of usage:
 
-Python
+Python "
 
 from transformers import AutoTokenizer
 from airllm import AutoModel
@@ -40,3 +40,6 @@ generation_output = model.generate(
 )
 
 print(tokenizer.decode(generation_output.sequences[0], skip_special_tokens=True))
+
+"
+Leave a comment if you liked this repository. I'll apprecciate it :)
